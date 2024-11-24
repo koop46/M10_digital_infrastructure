@@ -1,2 +1,6 @@
 # M10_digital_infrastructure
-First technical milestone as chairman: to build the organizations digital infrastructure
+Raw prototype of the organizations digital infrastructure.
+
+- API
+- Database connector/creator class
+- API client
