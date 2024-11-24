@@ -307,13 +307,4 @@ def delete_participant(participant_id: int):
 
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## 
 
-@app.post("/optional_query")
-def optional_query(request: Query):
-
-    query = request.query
-
-    query_result = connector.fetch_data(query)
-
-    return query_result
-
 
