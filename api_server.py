@@ -11,7 +11,7 @@ app = FastAPI()
 ### ### ### ### ### ### ### ### ### ### ### ### ### ### ### 
 
 
-connector = Connect('M10.db')
+connector = Connect('test.db')
 
 # If not database file exists:
 # connector.create_tables() 
@@ -23,7 +23,7 @@ connector = Connect('M10.db')
 
 @app.get("/")      #127.0.0.0.1:8000/
 def test_endpoint():
-    return {"M10":"Server"}
+    return {"test":"Server"}
 
 
 ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## 
